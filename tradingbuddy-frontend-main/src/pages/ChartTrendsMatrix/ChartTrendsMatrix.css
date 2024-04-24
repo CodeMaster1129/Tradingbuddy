@@ -1,0 +1,53 @@
+.tradingview-widget-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #131722;
+  padding: 20px;
+}
+
+.chart-container {
+  flex: 0 0 calc(12.5% - 10px);
+  margin: 5px;
+  padding-bottom: 20px;
+  background-color: #131722;
+}
+
+.chart-container h2 {
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 18px;
+  color: rgb(209, 212, 220);
+  margin-left: 10px;
+  background-color: #131722;
+}
+
+body {
+  background-color: #131722;
+}
+
+html {
+  background-color: #131722;
+}
+
+.logo {
+  display: flex;
+  height: 70px;
+  text-align: center;
+  background-color: #131722;
+  justify-content: space-between;
+}
+
+.logo-img {
+  width: 60px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.logo-text {
+  text-align: center;
+  padding: 0px 10px;
+  display: flex;
+}
