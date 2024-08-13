@@ -1,0 +1,42 @@
+[2023-12-14 09:01:29 +0000] [1347348] [INFO] Starting gunicorn 20.1.0
+[2023-12-14 09:01:29 +0000] [1347348] [INFO] Listening at: http://0.0.0.0:8000 (1347348)
+[2023-12-14 09:01:29 +0000] [1347348] [INFO] Using worker: sync
+[2023-12-14 09:01:29 +0000] [1347349] [INFO] Booting worker with pid: 1347349
+[2023-12-14 09:01:29 +0000] [1347350] [INFO] Booting worker with pid: 1347350
+[2023-12-14 09:01:29 +0000] [1347351] [INFO] Booting worker with pid: 1347351
+[2023-12-14 09:01:30 +0000] [1347352] [INFO] Booting worker with pid: 1347352
+/home/ubuntu/.local/lib/python3.10/site-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (2.1.0) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+/home/ubuntu/.local/lib/python3.10/site-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (2.1.0) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+/home/ubuntu/.local/lib/python3.10/site-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (2.1.0) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+/home/ubuntu/.local/lib/python3.10/site-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (2.1.0) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+[2023-12-14 09:02:11 +0000] [1347348] [INFO] Handling signal: int
+[2023-12-14 09:02:11 +0000] [1347350] [INFO] Worker exiting (pid: 1347350)
+[2023-12-14 09:02:11 +0000] [1347351] [INFO] Worker exiting (pid: 1347351)
+[2023-12-14 09:02:11 +0000] [1347349] [INFO] Worker exiting (pid: 1347349)
+[2023-12-14 09:02:11 +0000] [1347348] [WARNING] Worker with pid 1347351 was terminated due to signal 2
+[2023-12-14 09:02:11 +0000] [1347348] [WARNING] Worker with pid 1347349 was terminated due to signal 2
+[2023-12-14 09:02:11 +0000] [1347348] [WARNING] Worker with pid 1347352 was terminated due to signal 2
+[2023-12-14 09:02:11 +0000] [1347348] [INFO] Shutting down: Master
+[2023-12-14 09:03:18 +0000] [1349358] [INFO] Starting gunicorn 20.1.0
+[2023-12-14 09:03:18 +0000] [1349358] [INFO] Listening at: http://0.0.0.0:8000 (1349358)
+[2023-12-14 09:03:18 +0000] [1349358] [INFO] Using worker: sync
+[2023-12-14 09:03:18 +0000] [1349359] [INFO] Booting worker with pid: 1349359
+[2023-12-14 09:03:18 +0000] [1349360] [INFO] Booting worker with pid: 1349360
+[2023-12-14 09:03:18 +0000] [1349361] [INFO] Booting worker with pid: 1349361
+[2023-12-14 09:03:18 +0000] [1349362] [INFO] Booting worker with pid: 1349362
+/home/ubuntu/.local/lib/python3.10/site-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (2.1.0) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+/home/ubuntu/.local/lib/python3.10/site-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (2.1.0) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+/home/ubuntu/.local/lib/python3.10/site-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (2.1.0) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+/home/ubuntu/.local/lib/python3.10/site-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (2.1.0) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+[2023-12-14 09:03:21 +0000] [1349358] [INFO] Handling signal: int
+[2023-12-14 09:03:21 +0000] [1349360] [INFO] Worker exiting (pid: 1349360)
+[2023-12-14 09:03:21 +0000] [1349362] [INFO] Worker exiting (pid: 1349362)
+[2023-12-14 09:03:21 +0000] [1349358] [INFO] Shutting down: Master
