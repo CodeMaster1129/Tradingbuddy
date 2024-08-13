@@ -1,0 +1,163 @@
+/* width */
+.item-content-map::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.item-content-map::-webkit-scrollbar-track {
+  background: #1e222d;
+}
+
+/* Handle */
+.item-content-map::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.item-content-map::-webkit-scrollbar-thumb:hover {
+  background: #f1f1f1;
+}
+
+.alert-main {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 60px);
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-grow: 1;
+  padding: 20px;
+  gap: 20px;
+}
+
+.left-side {
+  border: 1px solid rgb(67, 70, 81);
+  border-radius: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 25%;
+  gap: 20px;
+  padding: 20px;
+  max-width: 20%;
+}
+
+.item-header {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+.right-side {
+  border: 1px solid rgb(67, 70, 81);
+  border-radius: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 4;
+  gap: 20px;
+  padding: 20px;
+  max-width: 60%;
+}
+
+.image {
+  width: 85px;
+  height: 85px;
+  margin-top: 20px;
+}
+
+.image-header {
+  color: rgb(209, 212, 220);
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.image-content {
+  color: rgb(209, 212, 220);
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.item-content {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.item-content-header {
+}
+
+.item-content-image {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.item-content-title {
+  font-size: 14px;
+  color: rgb(139, 163, 177);
+  padding-bottom: 10px;
+}
+
+.item-content-title-patreon {
+  font-size: 14px;
+  color: rgb(139, 163, 177);
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.item-content-map {
+  overflow-y: scroll;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 70px;
+  overflow-x: hidden;
+}
+
+.item-content-footer {
+  display: flex;
+  justify-content: space-between;
+  /* width: 100%; */
+}
+
+.item-content-div {
+  /* width: 100%; */
+  padding: 2px;
+  color: rgb(209, 212, 220);
+  display: flex;
+  font-size: 12px;
+  flex-direction: column;
+}
+
+.item-div {
+  width: 25%;
+  margin: 5px;
+}
+
+.search {
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+  height: 40px;
+}
+
+.search-button {
+  margin-right: 10px;
+  background: rgb(41, 98, 255);
+}
+
+.search-input {
+  margin-right: 10px;
+  background: rgb(42, 46, 57);
+}

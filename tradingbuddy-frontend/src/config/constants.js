@@ -1,0 +1,33 @@
+const CHART_CONFIG = {
+  chartOnly: true,
+  locale: 'en',
+  colorTheme: 'dark',
+  autosize: false,
+  showVolume: false,
+  showMA: false,
+  hideDateRanges: true,
+  hideMarketStatus: true,
+  hideSymbolLogo: false,
+  scalePosition: 'no',
+  scaleMode: 'Normal',
+  fontFamily: '-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif',
+  fontSize: '10',
+  noTimeScale: true,
+  valuesTracking: '1',
+  changeMode: 'no-values',
+  chartType: 'line',
+  maLineColor: '#2962FF',
+  maLineWidth: 1,
+  maLength: 9,
+  gridLineColor: 'rgba(209, 212, 220, .75)',
+  lineWidth: 2,
+  lineType: 2,
+  upColor: '#22ab94',
+  downColor: '#f7525f',
+  borderUpColor: '#22ab94',
+  borderDownColor: '#f7525f',
+  wickUpColor: '#22ab94',
+  wickDownColor: '#f7525f'
+};
+
+module.exports = { CHART_CONFIG };
